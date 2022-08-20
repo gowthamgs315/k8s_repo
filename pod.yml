@@ -1,10 +1,10 @@
  apiVersion: v1
  kind: Pod
  metadata:
-   name: hell0-pod
+   name: hell0-pod22
  spec:
    containers:
-   - name: second_con
+   - name: second-con
      image: nginx
      ports:
      - containerPort: 80 
