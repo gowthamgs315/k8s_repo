@@ -8,7 +8,7 @@
      app: myng
    template:
       metadata:
-        lables:
+        labels:
           app: myng
       spec:
          containers:
