@@ -12,7 +12,7 @@
           app: myng
       spec:
          containers:
-           name: mgng-cont
+         - name: mgng-cont
            image: nginx
            ports:
-             containerPort: 80        
+           - containerPort: 80        
