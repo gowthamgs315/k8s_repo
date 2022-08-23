@@ -15,4 +15,4 @@
          - name: mgng-cont
            image: nginx
            ports:
-           - con  tainerPort: 80        
+           - containerPort: 80        
