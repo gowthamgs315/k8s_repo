@@ -3,7 +3,7 @@
  metadata:
    name: myng-rc
  spec:
-   replicas: 3
+   replicas: 4
    selector: 
      app: myng
    template:
@@ -15,4 +15,4 @@
          - name: mgng-cont
            image: nginx
            ports:
-           - containerPort: 80        
+           - con  tainerPort: 80        
