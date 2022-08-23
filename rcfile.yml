@@ -3,7 +3,7 @@
  metadata:
    name: myng-rc
  spec:
-   replicas: 4
+   replicas: 5
    selector: 
      app: myng
    template:
