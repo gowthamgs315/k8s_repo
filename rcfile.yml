@@ -15,6 +15,6 @@
       spec:
          containers:
          - name: myjavaapp-cont
-           image: nginx
+           image: maha4iac/myjavaapplication
            ports:
-           - containerPort: 80       
+           - containerPort: 8080     
