@@ -1,15 +1,17 @@
  apiVersion: v1
  kind: ReplicationController
  metadata:
-   name: myng-rc
+   name: myjavaapp-rc
  spec:
-   replicas: 5
+   replicas: 3
    selector: 
-     app: myng
+     app: myjavaapp
+     version: 2.6.1
    template:
       metadata:
         labels:
-          app: myng
+          app: myjavaapp
+          version: 2.6.1
       spec:
          containers:
          - name: mgng-cont

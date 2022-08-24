@@ -3,7 +3,8 @@
  metadata: 
    name: mynginx-svc
    labels:
-     app: myng
+     app: myjavaapp
+     version: 2.6.1 
  spec:
    type: NodePort
    ports:
@@ -11,5 +12,5 @@
      nodePort: 30001
      protocol: TCP
    selector:
-     app: myng
-
+     app: myjavaapp
+     version: 2.6.1
