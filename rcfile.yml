@@ -14,7 +14,7 @@
           version: 2.6.1
       spec:
          containers:
-         - name: mgng-cont
+         - name: myjavaapp-cont
            image: nginx
            ports:
            - containerPort: 8080       
